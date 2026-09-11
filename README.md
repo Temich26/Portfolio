@@ -19,4 +19,4 @@ npm run dev
 npm run build
 ```
 
-Деплой: подключите репозиторий к [Vercel](https://vercel.com/new). Framework Preset — Next.js, команды по умолчанию.
+Деплой: подключите репозиторий к [Vercel](https://vercel.com/new). Пресет задан в `vercel.json` (`framework: nextjs`). Не включайте статический экспорт (`output: "export"`) и не указывайте Output Directory (`out` / `public`).
